@@ -1,0 +1,25 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    int t;
+    cin>>t;
+    while(t--){
+        char ss;
+        cin>>ss;
+        string s="codeforces";
+        bool ch=0;
+        for(int i =0;i<=s.length();i++){
+            if(ss == s[i]){
+                ch =1;
+            }
+        }
+    if (ch == 1){
+            cout << "YES"<<endl;
+        }
+    else{
+            cout << "NO"<<endl;
+        }
+    }
+    return 0;
+}
